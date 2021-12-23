@@ -1,0 +1,36 @@
+# dependencies
+node_modules
+
+.vscode
+.history
+.idea
+
+# logs
+npm-debug.log
+logs
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Temporary Image
+uploads/*
+
+# config
+# config/*
+
+# package-lock.json
+package-lock.json
+
+# 首页 包含判定是否pc的跳转
+client/app.html
+
+yarn.lock
+
+# 文件已更新到服务器，全部增加到忽略
+# global.json
+# india.json
+# indiatest.json
+# test.json
