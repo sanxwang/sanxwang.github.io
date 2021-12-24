@@ -2,7 +2,7 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "url": "https://sanxwang.github.io/",
-  "baseUrl": "/",
+  "baseUrl": "/build/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
