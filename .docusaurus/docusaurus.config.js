@@ -2,7 +2,7 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "url": "https://sanxwang.github.io/",
-  "baseUrl": "/build/",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -14,36 +14,35 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/sanxwang/wangannan/my-blog/my-blog/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/sanxwang/wangannan/my-site/sidebars.js",
+          "editUrl": "https://github.com/sanxwang/sanxwang.github.io"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/sanxwang/sanxwang.github.io"
         },
         "theme": {
-          "customCss": "/Users/sanxwang/wangannan/my-blog/my-blog/src/css/custom.css"
+          "customCss": "/Users/sanxwang/wangannan/my-site/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "annan's blog ",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/aboutme",
+          "label": "About Me",
           "position": "left"
         },
         {
@@ -97,7 +96,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 annan's blog, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

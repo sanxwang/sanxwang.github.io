@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://sanxwang.github.io/',
-  baseUrl: '/build/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -25,13 +25,15 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/sanxwang/sanxwang.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/sanxwang/sanxwang.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,19 +46,51 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'annan\'s blog ',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/aboutme', label: 'About Me', position: 'left' },
+          // {
+          //   label: "Resources",
+          //   position: "left",
+          //   items: [
+          //     {
+          //       label: "Customers",
+          //       to: "/customers",
+          //     },
+          //     {
+          //       label: "Enterprise",
+          //       to: "/enterprise",
+          //     },
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: "Tutorials",
+          //       to: "/tutorial",
+          //     },
+          //     {
+          //       label: "Careers",
+          //       to: "/careers/",
+          //     },
+          //     {
+          //       label: "About us",
+          //       to: "/about-us/",
+          //     },
+          //   ],
+          // },
+          // { to: '/aboutme/index.html', label: 'About Me', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -107,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} annan's blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

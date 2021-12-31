@@ -1,5 +1,9 @@
 {
-  "/build/blog-37e": {
+  "/aboutme-cd0": {
+    "component": "fbe72a0f",
+    "config": "5e9f5e1a"
+  },
+  "/blog-520": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -16,33 +20,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "57300bb5"
+    "metadata": "b2b675dd"
   },
-  "/build/blog/archive-b3c": {
+  "/blog/archive-f4c": {
     "component": "9e4087bc",
-    "archive": "cd2a00df"
+    "archive": "b2f554cd"
   },
-  "/build/blog/first-blog-post-408": {
+  "/blog/first-blog-post-6c7": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/build/blog/long-blog-post-b55": {
+  "/blog/long-blog-post-f06": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/build/blog/mdx-blog-post-de6": {
+  "/blog/mdx-blog-post-bee": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/build/blog/tags-3e3": {
+  "/blog/tags-e13": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "7870a6bb"
+    "tags": "a7023ddc"
   },
-  "/build/blog/tags/docusaurus-ab5": {
+  "/blog/tags/docusaurus-ddf": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -59,9 +63,9 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "10a54ddc"
+    "metadata": "a80da1cf"
   },
-  "/build/blog/tags/facebook-b2d": {
+  "/blog/tags/facebook-ede": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -69,9 +73,9 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "510b00ef"
+    "metadata": "031793e1"
   },
-  "/build/blog/tags/hello-912": {
+  "/blog/tags/hello-4c2": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -82,9 +86,9 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "8b947b8d"
+    "metadata": "30a24c52"
   },
-  "/build/blog/tags/hola-a4c": {
+  "/blog/tags/hola-752": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -92,58 +96,58 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "7db63c73"
+    "metadata": "e16015ca"
   },
-  "/build/blog/welcome-674": {
+  "/blog/welcome-bfa": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/build/markdown-page-d23": {
+  "/markdown-page-be1": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/build/docs-e66": {
+  "/docs-87d": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/build/docs/intro-cd9": {
+  "/docs/intro-aed": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/build/docs/tutorial-basics/congratulations-deb": {
+  "/docs/tutorial-basics/congratulations-793": {
     "component": "17896441",
     "content": "822bd8ab"
   },
-  "/build/docs/tutorial-basics/create-a-blog-post-3dd": {
+  "/docs/tutorial-basics/create-a-blog-post-68e": {
     "component": "17896441",
     "content": "533a09ca"
   },
-  "/build/docs/tutorial-basics/create-a-document-cd9": {
+  "/docs/tutorial-basics/create-a-document-c2d": {
     "component": "17896441",
     "content": "1e4232ab"
   },
-  "/build/docs/tutorial-basics/create-a-page-907": {
+  "/docs/tutorial-basics/create-a-page-f44": {
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/build/docs/tutorial-basics/deploy-your-site-77d": {
+  "/docs/tutorial-basics/deploy-your-site-e46": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/build/docs/tutorial-basics/markdown-features-a9c": {
+  "/docs/tutorial-basics/markdown-features-4b7": {
     "component": "17896441",
     "content": "18c41134"
   },
-  "/build/docs/tutorial-extras/manage-docs-versions-4a0": {
+  "/docs/tutorial-extras/manage-docs-versions-fdd": {
     "component": "17896441",
     "content": "dff1c289"
   },
-  "/build/docs/tutorial-extras/translate-your-site-63d": {
+  "/docs/tutorial-extras/translate-your-site-2d7": {
     "component": "17896441",
     "content": "e44a2883"
   },
-  "/build/-aa2": {
+  "/-deb": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   }
