@@ -4,13 +4,48 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/aboutme',
-    component: ComponentCreator('/aboutme','cd0'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    exact: true
+  },
+  {
+    path: '/aboutme/',
+    component: ComponentCreator('/aboutme/','0b8'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','520'),
+    component: ComponentCreator('/blog','a07'),
     exact: true
   },
   {
@@ -34,6 +69,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/style list',
+    component: ComponentCreator('/blog/style list','922'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags','e13'),
     exact: true
@@ -44,13 +84,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/docusaurus-v-2',
+    component: ComponentCreator('/blog/tags/docusaurus-v-2','0cb'),
+    exact: true
+  },
+  {
     path: '/blog/tags/facebook',
     component: ComponentCreator('/blog/tags/facebook','ede'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','4c2'),
+    component: ComponentCreator('/blog/tags/hello','172'),
     exact: true
   },
   {
@@ -61,6 +106,11 @@ export default [
   {
     path: '/blog/welcome',
     component: ComponentCreator('/blog/welcome','bfa'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome-docusaurus-v2',
+    component: ComponentCreator('/blog/welcome-docusaurus-v2','6cc'),
     exact: true
   },
   {

@@ -1,6 +1,35 @@
 {
   "blogPosts": [
     {
+      "id": "style list",
+      "metadata": {
+        "permalink": "/blog/style list",
+        "editUrl": "https://github.com/sanxwang/sanxwang.github.io/blog/2021-12-31-style-tech.md",
+        "source": "@site/blog/2021-12-31-style-tech.md",
+        "title": "my study list",
+        "description": "study list:",
+        "date": "2021-12-31T00:00:00.000Z",
+        "formattedDate": "December 31, 2021",
+        "tags": [],
+        "readingTime": 0.02666666666666667,
+        "truncated": false,
+        "authors": [
+          {
+            "name": "annan wang",
+            "title": "master of this blog",
+            "url": "/img/aboutme/IMG_5583.JPG",
+            "imageURL": "/img/aboutme/IMG_5583.JPG",
+            "key": "annan"
+          }
+        ],
+        "nextItem": {
+          "title": "Welcome",
+          "permalink": "/blog/welcome"
+        }
+      },
+      "content": "study list:\n1. [React Live](https://github.com/FormidableLabs/react-live)\n1. [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)"
+    },
+    {
       "id": "welcome",
       "metadata": {
         "permalink": "/blog/welcome",
@@ -42,6 +71,10 @@
             "key": "yangshun"
           }
         ],
+        "prevItem": {
+          "title": "my study list",
+          "permalink": "/blog/style list"
+        },
         "nextItem": {
           "title": "MDX Blog Post",
           "permalink": "/blog/mdx-blog-post"
@@ -81,11 +114,53 @@
           "permalink": "/blog/welcome"
         },
         "nextItem": {
+          "title": "Welcome Docusaurus v2",
+          "permalink": "/blog/welcome-docusaurus-v2"
+        }
+      },
+      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+    },
+    {
+      "id": "welcome-docusaurus-v2",
+      "metadata": {
+        "permalink": "/blog/welcome-docusaurus-v2",
+        "editUrl": "https://github.com/sanxwang/sanxwang.github.io/blog/2019-09-05-hello-docusaurus-v2.mdx",
+        "source": "@site/blog/2019-09-05-hello-docusaurus-v2.mdx",
+        "title": "Welcome Docusaurus v2",
+        "description": "This is my first post on Docusaurus 2.",
+        "date": "2019-09-05T00:00:00.000Z",
+        "formattedDate": "September 5, 2019",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus-v2",
+            "permalink": "/blog/tags/docusaurus-v-2"
+          }
+        ],
+        "readingTime": 0.67,
+        "truncated": true,
+        "authors": [
+          {
+            "name": "annan wang",
+            "title": "master of this blog",
+            "url": "/img/aboutme/IMG_5583.JPG",
+            "imageURL": "/img/aboutme/IMG_5583.JPG",
+            "key": "annan"
+          }
+        ],
+        "prevItem": {
+          "title": "MDX Blog Post",
+          "permalink": "/blog/mdx-blog-post"
+        },
+        "nextItem": {
           "title": "Long Blog Post",
           "permalink": "/blog/long-blog-post"
         }
       },
-      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+      "content": "<!-- @format -->\n\nWelcome to this blog. 此博客使用 [**Docusaurus 2**](https://docusaurus.io/) 搭建。\n\n```shell\n$ npm install --save-dev @wdio/cli\n$ npx wdio config --yes\n$ npx wdio run\n```\n\n\n```js\nfunction HighlightSomeText(highlight) {\n  if (highlight) {\n    // highlight-next-line\n    return \"这句被高亮了！\";\n  }\n\n  return \"这里不会\";\n}\n\nfunction HighlightMoreText(highlight) {\n  // highlight-start\n  if (highlight) {\n    return \"这片区域被高亮了！\";\n  }\n  // highlight-end\n\n  return \"这里不会\";\n}\n```\n\n```jsx live\n\nfunction Clock(props) {\n  const [date, setDate] = useState(new Date());\n  useEffect(() => {\n    var timerID = setInterval(() => tick(), 1000);\n    return function cleanup() {\n      clearInterval(timerID);\n    }\n  })\n\n  function tick() {\n    setDate(new Date())\n  }\n\n  return (\n    <div>\n      <h2>现在是 {date.toLocaleTimeString()}。</h2>\n    </div>\n  );\n}\n\n```\n\n\nimport Tabs from '@theme/Tabs';\nimport TabItem from '@theme/TabItem';\n\n<Tabs>\n<TabItem value=\"js\" label=\"JavaScript\">\n\n```js\nfunction helloWorld() {\n  console.log('Hello, world!');\n}\n```\n\n</TabItem>\n<TabItem value=\"py\" label=\"Python\">\n\n```py\ndef hello_world():\n  print 'Hello, world!'\n```\n\n</TabItem>\n<TabItem value=\"html\" label=\"Html\">\n\n```html\n<div>\n  <span>hello fuck</span>\n</div>\n```\n\n</TabItem>\n<TabItem value=\"scss\" label=\"Scss\">\n\n```scss\n.div {\n  color: red\n}\n```\n\n</TabItem>\n\n</Tabs>\n\n\n\n<!--truncate-->\n\n这是我在 Docusaurus 2 上的首篇博文。\n\n下方是一系列内容。"
     },
     {
       "id": "long-blog-post",
@@ -119,8 +194,8 @@
           }
         ],
         "prevItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
+          "title": "Welcome Docusaurus v2",
+          "permalink": "/blog/welcome-docusaurus-v2"
         },
         "nextItem": {
           "title": "First Blog Post",

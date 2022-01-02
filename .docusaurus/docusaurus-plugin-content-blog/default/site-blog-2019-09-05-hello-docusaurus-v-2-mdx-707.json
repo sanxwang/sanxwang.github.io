@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/welcome-docusaurus-v2",
+  "editUrl": "https://github.com/sanxwang/sanxwang.github.io/blog/2019-09-05-hello-docusaurus-v2.mdx",
+  "source": "@site/blog/2019-09-05-hello-docusaurus-v2.mdx",
+  "title": "Welcome Docusaurus v2",
+  "description": "This is my first post on Docusaurus 2.",
+  "date": "2019-09-05T00:00:00.000Z",
+  "formattedDate": "September 5, 2019",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus-v2",
+      "permalink": "/blog/tags/docusaurus-v-2"
+    }
+  ],
+  "readingTime": 0.67,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "annan wang",
+      "title": "master of this blog",
+      "url": "/img/aboutme/IMG_5583.JPG",
+      "imageURL": "/img/aboutme/IMG_5583.JPG",
+      "key": "annan"
+    }
+  ],
+  "prevItem": {
+    "title": "MDX Blog Post",
+    "permalink": "/blog/mdx-blog-post"
+  },
+  "nextItem": {
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
+  }
+}

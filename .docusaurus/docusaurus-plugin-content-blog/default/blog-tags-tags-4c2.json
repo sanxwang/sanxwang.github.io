@@ -10,7 +10,7 @@
     "allTagsPath": "/blog/tags",
     "slug": "/blog/tags/hello",
     "name": "hello",
-    "count": 2,
+    "count": 3,
     "permalink": "/blog/tags/hello"
   },
   "/blog/tags/docusaurus": {
@@ -19,6 +19,13 @@
     "name": "docusaurus",
     "count": 4,
     "permalink": "/blog/tags/docusaurus"
+  },
+  "/blog/tags/docusaurus-v-2": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/docusaurus-v-2",
+    "name": "docusaurus-v2",
+    "count": 1,
+    "permalink": "/blog/tags/docusaurus-v-2"
   },
   "/blog/tags/hola": {
     "allTagsPath": "/blog/tags",

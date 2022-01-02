@@ -41,7 +41,7 @@ const config = {
       }),
     ],
   ],
-
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -51,6 +51,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+        // hideOnScroll: false,
         items: [
           // {
           //   type: 'doc',
@@ -60,39 +61,8 @@ const config = {
           // },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/aboutme', label: 'About Me', position: 'left' },
-          // {
-          //   label: "Resources",
-          //   position: "left",
-          //   items: [
-          //     {
-          //       label: "Customers",
-          //       to: "/customers",
-          //     },
-          //     {
-          //       label: "Enterprise",
-          //       to: "/enterprise",
-          //     },
-          //     {
-          //       label: "Blog",
-          //       to: "/blog",
-          //     },
-          //     {
-          //       label: "Tutorials",
-          //       to: "/tutorial",
-          //     },
-          //     {
-          //       label: "Careers",
-          //       to: "/careers/",
-          //     },
-          //     {
-          //       label: "About us",
-          //       to: "/about-us/",
-          //     },
-          //   ],
-          // },
-          // { to: '/aboutme/index.html', label: 'About Me', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/sanxwang/sanxwang.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,29 +71,29 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: '#1',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: '#2',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: '#3',
               },
             ],
           },
@@ -136,7 +106,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/sanxwang/sanxwang.github.io',
               },
             ],
           },

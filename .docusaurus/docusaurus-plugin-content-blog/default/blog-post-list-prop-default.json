@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "my study list",
+      "permalink": "/blog/style list"
+    },
+    {
       "title": "Welcome",
       "permalink": "/blog/welcome"
     },
@@ -10,12 +14,12 @@
       "permalink": "/blog/mdx-blog-post"
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post"
+      "title": "Welcome Docusaurus v2",
+      "permalink": "/blog/welcome-docusaurus-v2"
     },
     {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "title": "Long Blog Post",
+      "permalink": "/blog/long-blog-post"
     }
   ]
 }

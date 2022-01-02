@@ -27,6 +27,9 @@ export default {
       }
     ]
   ],
+  "themes": [
+    "@docusaurus/theme-live-codeblock"
+  ],
   "themeConfig": {
     "navbar": {
       "title": "annan's blog ",
@@ -46,7 +49,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/sanxwang/sanxwang.github.io",
           "label": "GitHub",
           "position": "right"
         }
@@ -57,28 +60,19 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
           "title": "Community",
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "#1"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "#2"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "#3"
             }
           ]
         },
@@ -91,7 +85,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/sanxwang/sanxwang.github.io"
             }
           ]
         }
@@ -311,6 +305,9 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
     }
   },
   "baseUrlIssueBanner": true,
@@ -327,7 +324,6 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "titleDelimiter": "|",
   "noIndex": false
 };
