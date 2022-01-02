@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sanxwang.github.io/blog</id>
     <title>My Site Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-12-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sanxwang.github.io/blog"/>
     <subtitle>My Site Blog</subtitle>
     <icon>https://sanxwang.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[my study list]]></title>
+        <id>style list</id>
+        <link href="https://sanxwang.github.io/blog/style list"/>
+        <updated>2021-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[study list:]]></summary>
+        <content type="html"><![CDATA[<p>study list:</p><ol><li><a href="https://github.com/FormidableLabs/react-live">React Live</a></li><li><a href="https://reactjs.org/docs/error-boundaries.html">Error Boundaries</a></li></ol>]]></content>
+        <author>
+            <name>annan wang</name>
+            <uri>/img/aboutme/IMG_5583.JPG</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
@@ -34,6 +46,71 @@
         <author>
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome Docusaurus v2]]></title>
+        <id>welcome-docusaurus-v2</id>
+        <link href="https://sanxwang.github.io/blog/welcome-docusaurus-v2"/>
+        <updated>2019-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my first post on Docusaurus 2.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to this blog. 此博客使用 <a href="https://docusaurus.io/"><strong>Docusaurus 2</strong></a> 搭建。</p><pre><code class="language-shell">$ npm install --save-dev @wdio/cli
+$ npx wdio config --yes
+$ npx wdio run
+</code></pre><pre><code class="language-js">function HighlightSomeText(highlight) {
+  if (highlight) {
+    // highlight-next-line
+    return &quot;这句被高亮了！&quot;;
+  }
+
+  return &quot;这里不会&quot;;
+}
+
+function HighlightMoreText(highlight) {
+  // highlight-start
+  if (highlight) {
+    return &quot;这片区域被高亮了！&quot;;
+  }
+  // highlight-end
+
+  return &quot;这里不会&quot;;
+}
+</code></pre><pre><code class="language-jsx" metastring="live">
+function Clock(props) {
+  const [date, setDate] = useState(new Date());
+  useEffect(() =&gt; {
+    var timerID = setInterval(() =&gt; tick(), 1000);
+    return function cleanup() {
+      clearInterval(timerID);
+    }
+  })
+
+  function tick() {
+    setDate(new Date())
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;现在是 {date.toLocaleTimeString()}。&lt;/h2&gt;
+    &lt;/div&gt;
+  );
+}
+
+</code></pre><div><div value="js" label="JavaScript"><pre><code class="language-js">function helloWorld() {
+  console.log(&#x27;Hello, world!&#x27;);
+}
+</code></pre></div><div value="py" label="Python"><pre><code class="language-py">def hello_world():
+  print &#x27;Hello, world!&#x27;
+</code></pre></div><div value="html" label="Html"><pre><code class="language-html">&lt;div&gt;
+  &lt;span&gt;hello fuck&lt;/span&gt;
+&lt;/div&gt;
+</code></pre></div><div value="scss" label="Scss"><pre><code class="language-scss">.div {
+  color: red
+}
+</code></pre></div></div><p>这是我在 Docusaurus 2 上的首篇博文。</p><p>下方是一系列内容。</p>]]></content>
+        <author>
+            <name>annan wang</name>
+            <uri>/img/aboutme/IMG_5583.JPG</uri>
         </author>
     </entry>
     <entry>
