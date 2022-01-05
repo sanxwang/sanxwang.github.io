@@ -51,7 +51,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        // hideOnScroll: false,
+        hideOnScroll: true,
         items: [
           // {
           //   type: 'doc',

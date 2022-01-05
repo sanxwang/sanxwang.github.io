@@ -37,6 +37,7 @@ export default {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
       },
+      "hideOnScroll": true,
       "items": [
         {
           "to": "/blog",
@@ -53,8 +54,7 @@ export default {
           "label": "GitHub",
           "position": "right"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
       "style": "dark",

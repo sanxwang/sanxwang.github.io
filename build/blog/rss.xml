@@ -4,9 +4,17 @@
         <title>My Site Blog</title>
         <link>https://sanxwang.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[my study list]]></title>
+            <link>https://sanxwang.github.io/blog/style list</link>
+            <guid>style list</guid>
+            <pubDate>Fri, 31 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[study list:]]></description>
+            <content:encoded><![CDATA[<p>study list:</p><ol><li><a href="https://github.com/FormidableLabs/react-live">React Live</a></li><li><a href="https://reactjs.org/docs/error-boundaries.html">Error Boundaries</a></li></ol>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://sanxwang.github.io/blog/welcome</link>
@@ -23,6 +31,67 @@
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p><p>:::tip</p><p>Use the power of React to create interactive blog posts.</p><pre><code class="language-js">&lt;button onClick={() =&gt; alert(&#x27;button clicked!&#x27;)}&gt;Click me!&lt;/button&gt;
 </code></pre><button>Click me!</button><p>:::</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Welcome Docusaurus v2]]></title>
+            <link>https://sanxwang.github.io/blog/welcome-docusaurus-v2</link>
+            <guid>welcome-docusaurus-v2</guid>
+            <pubDate>Thu, 05 Sep 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus 2.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to this blog. 此博客使用 <a href="https://docusaurus.io/"><strong>Docusaurus 2</strong></a> 搭建。</p><pre><code class="language-shell">$ npm install --save-dev @wdio/cli
+$ npx wdio config --yes
+$ npx wdio run
+</code></pre><pre><code class="language-js">function HighlightSomeText(highlight) {
+  if (highlight) {
+    // highlight-next-line
+    return &quot;这句被高亮了！&quot;;
+  }
+
+  return &quot;这里不会&quot;;
+}
+
+function HighlightMoreText(highlight) {
+  // highlight-start
+  if (highlight) {
+    return &quot;这片区域被高亮了！&quot;;
+  }
+  // highlight-end
+
+  return &quot;这里不会&quot;;
+}
+</code></pre><pre><code class="language-jsx" metastring="live">
+function Clock(props) {
+  const [date, setDate] = useState(new Date());
+  useEffect(() =&gt; {
+    var timerID = setInterval(() =&gt; tick(), 1000);
+    return function cleanup() {
+      clearInterval(timerID);
+    }
+  })
+
+  function tick() {
+    setDate(new Date())
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;现在是 {date.toLocaleTimeString()}。&lt;/h2&gt;
+    &lt;/div&gt;
+  );
+}
+
+</code></pre><div><div value="js" label="JavaScript"><pre><code class="language-js">function helloWorld() {
+  console.log(&#x27;Hello, world!&#x27;);
+}
+</code></pre></div><div value="py" label="Python"><pre><code class="language-py">def hello_world():
+  print &#x27;Hello, world!&#x27;
+</code></pre></div><div value="html" label="Html"><pre><code class="language-html">&lt;div&gt;
+  &lt;span&gt;hello fuck&lt;/span&gt;
+&lt;/div&gt;
+</code></pre></div><div value="scss" label="Scss"><pre><code class="language-scss">.div {
+  color: red
+}
+</code></pre></div></div><p>这是我在 Docusaurus 2 上的首篇博文。</p><p>下方是一系列内容。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
