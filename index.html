@@ -1,45 +1,45 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    input {
-      width: 100%;
-      height: 60px;
-      font-size: 30px;
-    }
-    button {
-      font-size: 30px;
-      margin-top: 30px;
-    }
-  </style>
-</head>
-<body>
-  <h1>总长度</h1>
-  <input type="text" id="leng" placeholder="总长度(单位米)">
-  <h1>每个墩子宽度</h1>
-  <input type="text" id="w" placeholder="每个墩子宽度(单位米)">
-  <h1>需要几个墩子</h1>
-  <input type="text" id="n" placeholder="需要几个墩子(单位个)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        width: 100%;
+        height: 60px;
+        font-size: 30px;
+      }
+      button {
+        font-size: 30px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>总长度</h1>
+    <input type="text" id="leng" placeholder="总长度(单位米)" />
+    <h1>每个墩子宽度</h1>
+    <input type="text" id="w" placeholder="每个墩子宽度(单位米)" />
+    <h1>需要几个墩子</h1>
+    <input type="text" id="n" placeholder="需要几个墩子(单位个)" />
 
-  <button id="pu"> 开始计算墩子间距 </button>
+    <button id="pu">开始计算墩子间距</button>
 
-  <h1 id="result"></h1>
+    <h1 id="result"></h1>
 
-  <script>
+    <script>
+      document.getElementById("pu").onclick = function () {
+        const l = document.getElementById("leng").value;
+        const w = document.getElementById("w").value;
+        const n = document.getElementById("n").value;
 
-    
-    document.getElementById('pu').onclick = function(){
-      const l = document.getElementById('leng').value
-      const w = document.getElementById('w').value
-      const n = document.getElementById('n').value
-
-      document.getElementById('result').innerHTML = (l - (w*n)) / ( Number(n)+1) + '米'
-    }
-
-  </script>
-</body>
+        document.getElementById("result").innerHTML =
+          (Number(l) - Number(w) - w * n) / (Number(n) + 1) + "米";
+      };
+    </script>
+  </body>
 </html>
