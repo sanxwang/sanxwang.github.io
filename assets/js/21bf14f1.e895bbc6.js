@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9114],{2112:s=>{s.exports=JSON.parse('{"label":"micsoft","permalink":"/blog/tags/micsoft","allTagsPath":"/blog/tags","count":1}')}}]);
