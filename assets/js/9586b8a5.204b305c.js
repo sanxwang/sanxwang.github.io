@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6461],{6172:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"threejs l0","permalink":"/threejs/threejs l0"},{"title":"threejs l1","permalink":"/threejs/threejs l1"},{"title":"threejs l2","permalink":"/threejs/threejs l2"}]}')}}]);

@@ -9,12 +9,12 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[threejs l0]]></title>
-            <link>https://sanxwang.github.io/threejs/threejs l0</link>
-            <guid>threejs l0</guid>
+            <title><![CDATA[threejs simple demo]]></title>
+            <link>https://sanxwang.github.io/threejs/threejs-simple-demo</link>
+            <guid>threejs-simple-demo</guid>
             <pubDate>Sat, 10 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p><a href="/demo/vanilla">page test</a></p>]]></content:encoded>
             <category>hola</category>
             <category>docusaurus</category>
         </item>

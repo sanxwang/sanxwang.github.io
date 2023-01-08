@@ -8,12 +8,12 @@
     <subtitle>My Site Blog</subtitle>
     <icon>https://sanxwang.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[threejs l0]]></title>
-        <id>threejs l0</id>
-        <link href="https://sanxwang.github.io/threejs/threejs l0"/>
+        <title type="html"><![CDATA[threejs simple demo]]></title>
+        <id>threejs-simple-demo</id>
+        <link href="https://sanxwang.github.io/threejs/threejs-simple-demo"/>
         <updated>2022-12-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p><a href="/demo/vanilla">page test</a></p>]]></content>
         <author>
             <name>Gao Wei</name>
             <uri>https://github.com/wgao19</uri>
