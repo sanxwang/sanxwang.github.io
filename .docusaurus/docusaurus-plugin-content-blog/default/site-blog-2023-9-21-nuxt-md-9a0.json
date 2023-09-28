@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/hi",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-9-21-nuxt.md",
+  "source": "@site/blog/2023-9-21-nuxt.md",
+  "title": "hi",
+  "description": "",
+  "date": "2023-09-21T00:00:00.000Z",
+  "formattedDate": "September 21, 2023",
+  "tags": [
+    {
+      "label": "micsoft",
+      "permalink": "/blog/tags/micsoft"
+    },
+    {
+      "label": "google",
+      "permalink": "/blog/tags/google"
+    },
+    {
+      "label": "apple",
+      "permalink": "/blog/tags/apple"
+    }
+  ],
+  "readingTime": 0.165,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "annan wang",
+      "title": "It's Not a Bug, It's a Feature.",
+      "url": "https://github.com/sanxwang",
+      "imageURL": "https://d1q67msu4236dm.cloudfront.net/mysite/IMG_avatar.JPG",
+      "key": "annan"
+    }
+  ],
+  "frontMatter": {
+    "slug": "hi",
+    "title": "hi",
+    "authors": "annan",
+    "tags": [
+      "micsoft",
+      "google",
+      "apple"
+    ]
+  },
+  "nextItem": {
+    "title": "Joke",
+    "permalink": "/blog/joke"
+  }
+}

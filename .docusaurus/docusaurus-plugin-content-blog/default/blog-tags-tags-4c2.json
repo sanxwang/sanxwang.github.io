@@ -1,0 +1,37 @@
+[
+  {
+    "label": "micsoft",
+    "permalink": "/blog/tags/micsoft",
+    "count": 2
+  },
+  {
+    "label": "google",
+    "permalink": "/blog/tags/google",
+    "count": 2
+  },
+  {
+    "label": "apple",
+    "permalink": "/blog/tags/apple",
+    "count": 2
+  },
+  {
+    "label": "facebook",
+    "permalink": "/blog/tags/facebook",
+    "count": 1
+  },
+  {
+    "label": "hello",
+    "permalink": "/blog/tags/hello",
+    "count": 2
+  },
+  {
+    "label": "docusaurus",
+    "permalink": "/blog/tags/docusaurus",
+    "count": 4
+  },
+  {
+    "label": "hola",
+    "permalink": "/blog/tags/hola",
+    "count": 1
+  }
+]
