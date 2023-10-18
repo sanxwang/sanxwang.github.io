@@ -6,14 +6,13 @@
 export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
-  "url": "https://sanxwang.github.io",
+  "favicon": "img/favicon.ico",
+  "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
+  "organizationName": "facebook",
+  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "deploymentBranch": "gh-pages",
-  "organizationName": "sanxwang",
-  "projectName": "sanxwang.github.io",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/wangannan/wangannan/sio/sidebars.js",
+          "sidebarPath": "/Users/wangannan/sioo/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -35,12 +34,13 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/wangannan/wangannan/sio/src/css/custom.css"
+          "customCss": "/Users/wangannan/sioo/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
+    "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "My Site",
       "logo": {
@@ -49,8 +49,8 @@ export default {
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
+          "type": "docSidebar",
+          "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
         },
@@ -60,7 +60,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/sanxwang",
+          "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"
         }
@@ -105,12 +105,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/sanxwang"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc."
+      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

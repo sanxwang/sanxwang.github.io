@@ -51,10 +51,6 @@
       "docusaurus"
     ]
   },
-  "prevItem": {
-    "title": "Joke",
-    "permalink": "/blog/joke"
-  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"

@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/wangannan/wangannan/sio/sidebars.js",
-          "contentPath": "/Users/wangannan/wangannan/sio/docs",
-          "contentPathLocalized": "/Users/wangannan/wangannan/sio/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/wangannan/sioo/sidebars.js",
+          "contentPath": "/Users/wangannan/sioo/docs",
+          "contentPathLocalized": "/Users/wangannan/sioo/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -332,114 +332,6 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
-          "id": "hi",
-          "metadata": {
-            "permalink": "/blog/hi",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-9-21-nuxt.md",
-            "source": "@site/blog/2023-9-21-nuxt.md",
-            "title": "hi",
-            "description": "",
-            "date": "2023-09-21T00:00:00.000Z",
-            "formattedDate": "September 21, 2023",
-            "tags": [
-              {
-                "label": "micsoft",
-                "permalink": "/blog/tags/micsoft"
-              },
-              {
-                "label": "google",
-                "permalink": "/blog/tags/google"
-              },
-              {
-                "label": "apple",
-                "permalink": "/blog/tags/apple"
-              }
-            ],
-            "readingTime": 0.165,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "annan wang",
-                "title": "It's Not a Bug, It's a Feature.",
-                "url": "https://github.com/sanxwang",
-                "imageURL": "https://d1q67msu4236dm.cloudfront.net/mysite/IMG_avatar.JPG",
-                "key": "annan"
-              }
-            ],
-            "frontMatter": {
-              "slug": "hi",
-              "title": "hi",
-              "authors": "annan",
-              "tags": [
-                "micsoft",
-                "google",
-                "apple"
-              ]
-            },
-            "nextItem": {
-              "title": "Joke",
-              "permalink": "/blog/joke"
-            }
-          },
-          "content": "<!-- @format -->\n\n```jsx title=\"src/pages/my-react-page.js\"\nimport React from 'react';\nimport Layout from '@theme/Layout';\n\nexport default function MyReactPage() {\n  return (\n    <Layout>\n      <h1>My React page</h1>\n      <p>This is a React page</p>\n    </Layout>\n  );\n}\n```"
-        },
-        {
-          "id": "joke",
-          "metadata": {
-            "permalink": "/blog/joke",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-12-08-joke.md",
-            "source": "@site/blog/2022-12-08-joke.md",
-            "title": "Joke",
-            "description": "joke",
-            "date": "2022-12-08T00:00:00.000Z",
-            "formattedDate": "December 8, 2022",
-            "tags": [
-              {
-                "label": "micsoft",
-                "permalink": "/blog/tags/micsoft"
-              },
-              {
-                "label": "google",
-                "permalink": "/blog/tags/google"
-              },
-              {
-                "label": "apple",
-                "permalink": "/blog/tags/apple"
-              }
-            ],
-            "readingTime": 0.17,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "annan wang",
-                "title": "It's Not a Bug, It's a Feature.",
-                "url": "https://github.com/sanxwang",
-                "imageURL": "https://d1q67msu4236dm.cloudfront.net/mysite/IMG_avatar.JPG",
-                "key": "annan"
-              }
-            ],
-            "frontMatter": {
-              "slug": "joke",
-              "title": "Joke",
-              "authors": "annan",
-              "tags": [
-                "micsoft",
-                "google",
-                "apple"
-              ]
-            },
-            "prevItem": {
-              "title": "hi",
-              "permalink": "/blog/hi"
-            },
-            "nextItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            }
-          },
-          "content": "<!-- @format -->\n\n```jsx title=\"src/pages/my-react-page.js\"\nimport React from 'react';\nimport Layout from '@theme/Layout';\n\nexport default function MyReactPage() {\n  return (\n    <Layout>\n      <h1>My React page</h1>\n      <p>This is a React page</p>\n    </Layout>\n  );\n}\n```\n\n![joke](https://d1q67msu4236dm.cloudfront.net/mysite/joke.jpeg)"
-        },
-        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
@@ -493,10 +385,6 @@
                 "hello",
                 "docusaurus"
               ]
-            },
-            "prevItem": {
-              "title": "Joke",
-              "permalink": "/blog/joke"
             },
             "nextItem": {
               "title": "MDX Blog Post",
@@ -661,8 +549,6 @@
       "blogListPaginated": [
         {
           "items": [
-            "hi",
-            "joke",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
@@ -673,88 +559,13 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 6,
+            "totalCount": 4,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
-        "/blog/tags/micsoft": {
-          "label": "micsoft",
-          "items": [
-            "hi",
-            "joke"
-          ],
-          "permalink": "/blog/tags/micsoft",
-          "pages": [
-            {
-              "items": [
-                "hi",
-                "joke"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/micsoft",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/google": {
-          "label": "google",
-          "items": [
-            "hi",
-            "joke"
-          ],
-          "permalink": "/blog/tags/google",
-          "pages": [
-            {
-              "items": [
-                "hi",
-                "joke"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/google",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/apple": {
-          "label": "apple",
-          "items": [
-            "hi",
-            "joke"
-          ],
-          "permalink": "/blog/tags/apple",
-          "pages": [
-            {
-              "items": [
-                "hi",
-                "joke"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/apple",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 2,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
         "/blog/tags/facebook": {
           "label": "facebook",
           "items": [
@@ -864,7 +675,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src/pages/index.js"
+        "source": "@site/src/pages/index.tsx"
       },
       {
         "type": "mdx",
